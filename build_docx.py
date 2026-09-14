@@ -49,6 +49,8 @@ def run(p, text, *, bold=False, italic=False, size=S_BODY, color=INK, font=BODY_
 
 
 def tight(p, before=0, after=2, line=1.0):
+    if p.alignment is None:
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     pf = p.paragraph_format
     pf.space_before = Pt(before)
     pf.space_after = Pt(after)

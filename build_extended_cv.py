@@ -11,7 +11,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
@@ -59,6 +59,8 @@ def add_run(p, text, *, bold=False, italic=False, size=9.5, color=INK, font=BODY
 
 
 def tight(p, before=0, after=4, line=1.08):
+    if p.alignment is None:
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     pf = p.paragraph_format
     pf.space_before = Pt(before)
     pf.space_after = Pt(after)
@@ -224,9 +226,10 @@ def build_pdf(data):
     styles.add(ParagraphStyle("Sub", parent=styles["Normal"], fontName="Helvetica-Oblique", fontSize=10.5, leading=13, textColor=colors.HexColor("#3a5e8c"), alignment=TA_CENTER, spaceAfter=1))
     styles.add(ParagraphStyle("Contact", parent=styles["Normal"], fontName="Helvetica", fontSize=8.4, leading=10, textColor=colors.HexColor("#3a5e8c"), alignment=TA_CENTER, spaceAfter=8))
     styles.add(ParagraphStyle("H", parent=styles["Heading2"], fontName="Helvetica-Bold", fontSize=10, leading=12, textColor=colors.HexColor("#1e3a5f"), spaceBefore=8, spaceAfter=3))
-    styles.add(ParagraphStyle("BodyX", parent=styles["BodyText"], fontName="Helvetica", fontSize=8.9, leading=11.2, textColor=colors.HexColor("#262a2e"), spaceAfter=4))
-    styles.add(ParagraphStyle("Small", parent=styles["BodyText"], fontName="Helvetica", fontSize=7.6, leading=9.2, textColor=colors.HexColor("#5f666e"), spaceAfter=3))
-    styles.add(ParagraphStyle("Pub", parent=styles["BodyText"], fontName="Helvetica", fontSize=7.9, leading=9.4, textColor=colors.HexColor("#262a2e"), leftIndent=14, firstLineIndent=-14, spaceAfter=2.8))
+    justify = {"alignment": TA_JUSTIFY, "hyphenationLang": "en_US", "embeddedHyphenation": 1}
+    styles.add(ParagraphStyle("BodyX", parent=styles["BodyText"], fontName="Helvetica", fontSize=8.9, leading=11.2, textColor=colors.HexColor("#262a2e"), spaceAfter=4, **justify))
+    styles.add(ParagraphStyle("Small", parent=styles["BodyText"], fontName="Helvetica", fontSize=7.6, leading=9.2, textColor=colors.HexColor("#5f666e"), spaceAfter=3, **justify))
+    styles.add(ParagraphStyle("Pub", parent=styles["BodyText"], fontName="Helvetica", fontSize=7.9, leading=9.4, textColor=colors.HexColor("#262a2e"), leftIndent=14, firstLineIndent=-14, spaceAfter=2.8, **justify))
     styles.add(ParagraphStyle("Link", parent=styles["BodyText"], fontName="Helvetica", fontSize=7.2, leading=8.5, textColor=colors.HexColor("#3a5e8c"), leftIndent=14, spaceAfter=2))
 
     story = [

@@ -14,7 +14,7 @@ const ICON = {
 const svg = (name) =>
   `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ICON[name]}</svg>`;
 
-const DATA_VERSION = '20260914-absolute-links-1';
+const DATA_VERSION = '20260914-justify-1';
 
 const esc = (s) =>
   String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
