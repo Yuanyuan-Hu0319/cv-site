@@ -14,7 +14,7 @@ const ICON = {
 const svg = (name) =>
   `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ICON[name]}</svg>`;
 
-const DATA_VERSION = '20260914-pub-details-2';
+const DATA_VERSION = '20260914-expanded-1';
 
 const esc = (s) =>
   String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -89,6 +89,12 @@ function render(cv) {
   if (safeUrl(cv.researchgate)) chips.push(`<a class="chip" href="${esc(safeUrl(cv.researchgate))}" target="_blank" rel="noopener noreferrer">${svg('rg')} ResearchGate</a>`);
   const pdfHref = safeAssetPath(cv.site?.pdf);
   if (pdfHref) chips.push(`<a class="chip" href="${esc(pdfHref)}" target="_blank" rel="noopener noreferrer">${svg('pdf')} CV PDF</a>`);
+  const docxHref = safeAssetPath(cv.site?.docx);
+  if (docxHref) chips.push(`<a class="chip screen-only" href="${esc(docxHref)}" target="_blank" rel="noopener noreferrer">${svg('pdf')} CV DOCX</a>`);
+  const extendedHref = safeAssetPath(cv.site?.extendedPdf);
+  if (extendedHref) chips.push(`<a class="chip" href="${esc(extendedHref)}" target="_blank" rel="noopener noreferrer">${svg('pdf')} Extended CV</a>`);
+  const extendedDocxHref = safeAssetPath(cv.site?.extendedDocx);
+  if (extendedDocxHref) chips.push(`<a class="chip screen-only" href="${esc(extendedDocxHref)}" target="_blank" rel="noopener noreferrer">${svg('pdf')} Extended DOCX</a>`);
 
   c.push(`<header class="head">
     <h1 class="name">${esc(cv.name)}${cv.nameZh ? `<span class="zh">${esc(cv.nameZh)}</span>` : ''}</h1>
@@ -131,7 +137,7 @@ function render(cv) {
   if (pubHtml) c.push(section('Publications', pubHtml));
 
   // Footer with share QR
-  if (safeUrl(cv.site?.url)) c.push(`<div class="foot"><img src="qr.png" alt="QR code to this CV" /><span>${esc(cv.site.url)}</span></div>`);
+  if (safeUrl(cv.site?.url)) c.push(`<div class="foot"><img src="qr.png" alt="QR code to this CV" /><span>${esc(cv.site.url)}</span></div><div class="print-latest">Latest CV: ${esc(cv.site.url.replace(/^https?:\/\//, '').replace(/\/$/, '/'))}</div>`);
 
   document.getElementById('cv').innerHTML = c.join('');
 }

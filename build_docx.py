@@ -201,6 +201,10 @@ def main():
             p = doc.add_paragraph(); tight(p, before=2, after=0)
             run(p, "# indicates equal contribution.", italic=True, size=S_SMALL, color=MUTED)
 
+    if data.get("site", {}).get("url"):
+        p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER; tight(p, before=2, after=0)
+        run(p, "Latest CV: " + data["site"]["url"].replace("https://", "").rstrip("/") + "/", size=6.6, color=MUTED)
+
     out = os.path.join(HERE, "cv.docx")
     doc.save(out)
     print("wrote", out)

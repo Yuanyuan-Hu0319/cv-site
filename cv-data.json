@@ -7,6 +7,13 @@
   "orcid": "https://orcid.org/0000-0001-9019-6198",
   "researchgate": "https://www.researchgate.net/profile/Yuanyuan-Hu-27",
   "highlightName": "Yuanyuan Hu",
+  "profile": "I study how genetic and environmental influences shape brain networks and self-regulatory behavior, with a focus on procrastination, impulsivity, decision-making, and transdiagnostic mental-health risk. My work combines twin designs, neuroimaging, computational modeling, representational similarity analysis, and connectome-genetic approaches.",
+  "positioningOptions": [
+    "Twin neuroimaging, behavioral genetics, and computational psychiatry of self-regulation and mental health.",
+    "Genetically informed neuroimaging of procrastination, impulsivity, and transdiagnostic psychopathology.",
+    "Computational and neurogenetic mechanisms linking decision-making, self-regulation, and mental health.",
+    "AI-augmented psychological measurement and computational psychiatry as an emerging secondary direction."
+  ],
   "education": [
     {
       "period": "03/2025 – Present",
@@ -84,7 +91,7 @@
         "contribution": "Independent first author",
         "equalContrib": false,
         "links": {
-          "doi": "",
+          "doi": "10.1073/pnas.2605127123",
           "pdf": "",
           "preprint": ""
         }
@@ -188,9 +195,9 @@
         "metrics": "Preprint",
         "equalContrib": false,
         "links": {
-          "doi": "",
+          "doi": "10.64898/2026.04.18.26350994",
           "pdf": "",
-          "preprint": ""
+          "preprint": "https://doi.org/10.64898/2026.04.18.26350994"
         }
       }
     ]
@@ -198,6 +205,9 @@
   "site": {
     "repo": "Yuanyuan-Hu0319/cv-site",
     "url": "https://yuanyuan-hu0319.github.io/cv-site/",
-    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260914-pub-details-2"
+    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260914-expanded-1",
+    "docx": "Yuanyuan_Hu_CV.docx?v=20260914-expanded-1",
+    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260914-expanded-1",
+    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260914-expanded-1"
   }
 }
