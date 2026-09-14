@@ -205,9 +205,9 @@
   "site": {
     "repo": "Yuanyuan-Hu0319/cv-site",
     "url": "https://yuanyuan-hu0319.github.io/cv-site/",
-    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260914-expanded-1",
-    "docx": "Yuanyuan_Hu_CV.docx?v=20260914-expanded-1",
-    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260914-expanded-1",
-    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260914-expanded-1"
+    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260914-absolute-links-1",
+    "docx": "Yuanyuan_Hu_CV.docx?v=20260914-absolute-links-1",
+    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260914-absolute-links-1",
+    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260914-absolute-links-1"
   }
 }
