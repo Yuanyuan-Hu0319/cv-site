@@ -1,0 +1,13 @@
+{
+  "mode": "adapt",
+  "source_case": "hu-yuanyuan-blue",
+  "source_github": "https://github.com/Boyuan-Zheng/cv-site",
+  "target_repo": "Yuanyuan-Hu0319/cv-site",
+  "target_github": "https://github.com/Yuanyuan-Hu0319/cv-site",
+  "target_github_status": "not-verified",
+  "publication_status": "not-published-by-this-tool",
+  "live_url": null,
+  "directory": "D:\\活动\\他山\\CV\\yuanyuan-hu-cv-github",
+  "contains_source_identity": true,
+  "notice": "Review content and rebuild PDF/QR for the actual destination before publishing."
+}

@@ -1,0 +1,198 @@
+{
+  "name": "Yuanyuan Hu",
+  "title": "PhD Student, Cognitive Neuroscience",
+  "affiliation": "State Key Laboratory of Cognitive Science and Mental Health, Institute of Psychology, Chinese Academy of Sciences",
+  "location": "Beijing, China 100101",
+  "email": "huyy@psych.ac.cn",
+  "orcid": "https://orcid.org/0000-0001-9019-6198",
+  "researchgate": "https://www.researchgate.net/profile/Yuanyuan-Hu-27",
+  "highlightName": "Yuanyuan Hu",
+  "education": [
+    {
+      "period": "03/2025 – Present",
+      "degree": "Doctor of Philosophy, Cognitive Neuroscience",
+      "institution": "Institute of Psychology, Chinese Academy of Sciences",
+      "location": "Beijing",
+      "detail": "Using twin data to investigate the brain mechanisms through which genetic and environmental factors influence mental health.",
+      "supervisor": "Prof. Yuan Zhou"
+    },
+    {
+      "period": "09/2022 – 03/2025",
+      "degree": "Master of Philosophy, Applied Psychology",
+      "institution": "Institute of Psychology, Chinese Academy of Sciences",
+      "location": "Beijing",
+      "detail": "Using computational modelling and experimental psychology to study behavioural decision-making.",
+      "supervisor": "Prof. Yuan Zhou"
+    },
+    {
+      "period": "09/2018 – 06/2022",
+      "degree": "Bachelor of Philosophy, Applied Psychology",
+      "institution": "Faculty of Psychology, Southwest University",
+      "location": "Chongqing",
+      "detail": "Trained in research on procrastination.",
+      "supervisor": "Prof. Tingyong Feng"
+    }
+  ],
+  "interests": [
+    "Neuroimaging of psychiatric disorders",
+    "Behavioral genetics and twin studies",
+    "Behavioral decision-making"
+  ],
+  "skills": [
+    "Proficient in twin-based genetic modeling and heritability analysis.",
+    "Experienced in neuroimaging and network analysis methods.",
+    "Well trained in the theoretical frameworks and methodological approaches of clinical research on anxiety and depression."
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Advanced",
+      "note": "IELTS 7.0"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2026",
+      "text": "Director's Scholarship, Institute of Psychology, Chinese Academy of Sciences (Top 5 institute-wide)"
+    },
+    {
+      "year": "2026",
+      "text": "Best Presentation Award (3/500) and Best Academic Communication Award (3/988), First Capital Universities Undergraduate Academic Conference"
+    },
+    {
+      "year": "2025",
+      "text": "Outstanding Student (Top 15%) and Outstanding Student Model (Top 1%), University of Chinese Academy of Sciences"
+    },
+    {
+      "year": "2022–2025",
+      "text": "Academic Excellence Scholarship, University of Chinese Academy of Sciences"
+    },
+    {
+      "year": "2022",
+      "text": "Undergraduate Scholarship, University of Chinese Academy of Sciences"
+    }
+  ],
+  "publications": {
+    "lead": [
+      {
+        "authors": "Yuanyuan Hu, Jie Xiang, Yuening Jin, Qingchen Fan, Changshuo Wang, Yihan Wu, Dang Zheng, Bowen Hu, Tingyong Feng, Yuan Zhou & Zhiyi Chen",
+        "year": "2025",
+        "title": "Shared Neurogenetic Substrates of Non-planning Impulsivity and Procrastination",
+        "venue": "Proceedings of the National Academy of Sciences (PNAS)",
+        "info": "provisionally approved for publication; Tracking #: 2026-05127R",
+        "metrics": "",
+        "equalContrib": false,
+        "links": {
+          "doi": "",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Yuanyuan Hu#, Yancheng Tang#, Wei Li#, Dang Zheng, Yuening Jin, Qingchen Fan, Jan K Buitelaar, Yuan Zhou & Zhiyi Chen",
+        "year": "2026",
+        "title": "Shared neurogenetic architecture links adolescent neurodevelopmental deviations to adult psychopathological procrastination",
+        "venue": "Molecular Psychiatry",
+        "info": "in press",
+        "metrics": "SCI · Q1 · 5-year IF 11.8",
+        "equalContrib": true,
+        "links": {
+          "doi": "10.1038/s41380-025-03423-0",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Zhiyi Chen#, Yancheng Tang#, Xuerong Liu, Wei Li#, Yuanyuan Hu#, Bowen Hu#, Ting Xu, Rong Zhang, Lei Xia, Jing-Xuan Zhang, Zhibing Xiao, Ji Chen, Zhengzhi Feng, Yuan Zhou, Qinghua He, Jiang Qiu, Xu Lei, Hong Chen, Shaozheng Qin & Tingyong Feng",
+        "year": "2024",
+        "title": "Edge-centric connectome-genetic markers of bridging factor to comorbidity between depression and anxiety",
+        "venue": "Nature Communications",
+        "info": "15(1), 1–15",
+        "metrics": "SCI · Q1 · 5-year IF 16.1",
+        "equalContrib": true,
+        "links": {
+          "doi": "10.1038/s41467-024-55008-0",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Yuanyuan Hu#, Yuening Jin#, Bowen Hu, Tingyong Feng & Yuan Zhou",
+        "year": "2024",
+        "title": "Computational modeling interpretation underlying elevated risk-taking propensity in the dynamic risky investment process of non-labor income",
+        "venue": "Psychology Research and Behavior Management",
+        "info": "2491–2504",
+        "metrics": "SSCI · Q1 · 5-year IF 3.5",
+        "equalContrib": true,
+        "links": {
+          "doi": "10.2147/PRBM.S462466",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Yuanyuan Hu#, Jingjie Zhao#, Yuening Jin, Yi Du, Qian Zhao, Shuai Xu, Li Li & Yuan Zhou",
+        "year": "2024",
+        "title": "The altered resting-state functional connectivity of thalamic subregions in patients with globus pharyngeus",
+        "venue": "Brain Imaging and Behavior",
+        "info": "1–9",
+        "metrics": "SCI · Q2 · 5-year IF 2.9",
+        "equalContrib": true,
+        "links": {
+          "doi": "10.1007/s11682-024-00940-4",
+          "pdf": "",
+          "preprint": ""
+        }
+      }
+    ],
+    "collaborative": [
+      {
+        "authors": "Yuening Jin, Dang Zheng, Ruolei Gu, Qingchen Fan, Martin Dietz, Changshuo Wang, Xinying Li, Jie Chen, Yuanyuan Hu & Yuan Zhou",
+        "year": "2024",
+        "title": "Substantial heritability underlies fairness norm adaptation capability and its neural basis",
+        "venue": "Advanced Science",
+        "info": "2411070",
+        "metrics": "SCI · Q1 · 5-year IF 16.3",
+        "equalContrib": false,
+        "links": {
+          "doi": "10.1002/advs.202411070",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Wei Li, Xue-rong Liu, Qianyu Zhang, Lei Xia, Yanyan Li, Xiaobing Tian, Jie Gong, Jidong Ren, Chang Shen, Yi Wu, Ji Chen, Chuan-Peng Hu, Jing-Xuan Zhang, Ting Xu, Yuanyuan Hu, Bowen Hu, Ni Yan, Tingyong Feng, Zhengzhi Feng & Zhiyi Chen",
+        "year": "2025",
+        "title": "Implementation of primary psychological healthcare policy to address the risk of depression in underprivileged children and adolescents, in the entire lower-middle-economic-status city of China: an observational, multicenter, and single-arm cohort study",
+        "venue": "Depression and Anxiety",
+        "info": "2025(1), 5572365",
+        "metrics": "SCI · Q1 · 5-year IF 6.3",
+        "equalContrib": false,
+        "links": {
+          "doi": "10.1155/da/5572365",
+          "pdf": "",
+          "preprint": ""
+        }
+      },
+      {
+        "authors": "Bowen Hu, Tongxi Yang, Yuanyuan Hu, M. Liu, S. Tan, X. Li & Shaozheng Qin",
+        "year": "2026",
+        "title": "Neurobehavioral Profiles of Inhibitory-Control Stratify Vulnerability and Resilience under Childhood Poverty",
+        "venue": "medRxiv",
+        "info": "2026-04",
+        "metrics": "Preprint",
+        "equalContrib": false,
+        "links": {
+          "doi": "",
+          "pdf": "",
+          "preprint": ""
+        }
+      }
+    ]
+  },
+  "site": {
+    "repo": "Yuanyuan-Hu0319/cv-site",
+    "url": "https://yuanyuan-hu0319.github.io/cv-site/",
+    "pdf": "Yuanyuan_Hu_CV.pdf"
+  }
+}
