@@ -60,12 +60,14 @@ function pubLinks(pub) {
 
 function pubItem(pub, i) {
   const info = pub.info ? `, ${esc(pub.info)}` : '';
-  const eq = pub.equalContrib ? ' <span class="meta">#&nbsp;equal contribution.</span>' : '';
+  const contribution = pub.contribution
+    ? ` <span class="contribution">${esc(pub.contribution)}</span>`
+    : (pub.equalContrib ? ' <span class="meta">#&nbsp;equal contribution.</span>' : '');
   const badge = pub.metrics ? ` <span class="badge">${esc(pub.metrics)}</span>` : '';
   return `<div class="pub"><span class="num">${i}.</span><span class="body">
     <span class="authors">${boldName(pub.authors, window.__HL)}</span> (${esc(pub.year)}).
     <span class="title">${esc(pub.title)}</span>.
-    <span class="venue">${esc(pub.venue)}</span>${info}.${eq}${badge}${pubLinks(pub)}
+    <span class="venue">${esc(pub.venue)}</span>${info}.${contribution}${badge}${pubLinks(pub)}
   </span></div>`;
 }
 

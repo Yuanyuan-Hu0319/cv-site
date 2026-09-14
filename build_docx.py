@@ -26,8 +26,8 @@ HEAD_FONT = "Cambria"
 
 # Type sizes tuned for a single page.
 S_BODY = 9.0
-S_PUB = 8.4
-S_SMALL = 7.6
+S_PUB = 8.1
+S_SMALL = 7.3
 
 
 def set_margins(doc):
@@ -89,7 +89,7 @@ def authors_runs(p, authors, highlight, size=S_PUB):
 
 def add_pub(doc, pub, idx, highlight):
     p = doc.add_paragraph()
-    tight(p, before=0, after=2, line=1.02)
+    tight(p, before=0, after=2, line=1.06)
     p.paragraph_format.left_indent = Inches(0.2)
     p.paragraph_format.first_line_indent = Inches(-0.2)
     run(p, f"{idx}. ", bold=True, size=S_PUB, color=SOFT_BLUE)
@@ -100,6 +100,8 @@ def add_pub(doc, pub, idx, highlight):
     if pub.get("info"):
         run(p, f", {pub['info']}", size=S_PUB, color=INK)
     run(p, ". ", size=S_PUB, color=INK)
+    if pub.get("contribution"):
+        run(p, f"[{pub['contribution']}] ", size=S_SMALL, color=MUTED)
     if pub.get("metrics"):
         run(p, f"[{pub['metrics']}]", size=S_SMALL, color=MUTED)
 
@@ -197,7 +199,7 @@ def main():
                 add_pub(doc, pub, i, hl)
         if has_equal:
             p = doc.add_paragraph(); tight(p, before=2, after=0)
-            run(p, "#  indicates equal contribution.", italic=True, size=S_SMALL, color=MUTED)
+            run(p, "# indicates equal contribution.", italic=True, size=S_SMALL, color=MUTED)
 
     out = os.path.join(HERE, "cv.docx")
     doc.save(out)

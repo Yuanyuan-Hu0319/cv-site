@@ -20,7 +20,7 @@ body {
   color: var(--ink);
   font-family: var(--sans);
   font-size: 15px;
-  line-height: 1.62;
+  line-height: 1.68;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -97,6 +97,7 @@ section { margin-top: 1.6rem; }
 .pub .title { color: var(--ink); }
 .pub .venue { font-style: italic; }
 .pub .meta { color: var(--muted); }
+.contribution { color: var(--muted); font-weight: 500; }
 .badge { display: inline-block; background: var(--blue-tint); color: var(--blue); border-radius: 5px; padding: .04rem .42rem; font-size: .72rem; font-weight: 600; white-space: nowrap; margin-left: .25rem; }
 
 .links { display: inline-flex; gap: .3rem; margin-left: .35rem; vertical-align: middle; }
@@ -140,13 +141,35 @@ section { margin-top: 1.6rem; }
 
 /* ---------- print: clean, link-preserving PDF ---------- */
 @media print {
-  @page { size: A4; margin: 14mm; }
-  body { background: #fff; font-size: 10.2pt; line-height: 1.4; }
+  @page { size: Letter; margin: 0.35in; }
+  body { background: #fff; font-size: 7.8pt; line-height: 1.26; }
   .cv { max-width: none; margin: 0; padding: 0; box-shadow: none; background: #fff; }
   .export-btn, .foot { display: none !important; }
-  .name { font-size: 21pt; }
-  .sec-title { font-size: 12.5pt; }
-  section { margin-top: .7rem; }
+  .head { padding-bottom: .28rem; }
+  .name { font-size: 17pt; }
+  .subtitle { font-size: 8.8pt; margin: .08rem 0; }
+  .affil, .loc { font-size: 7.1pt; margin-top: 0; }
+  .contacts { gap: .18rem; margin-top: .28rem; }
+  .chip { padding: .08rem .34rem; font-size: 6.7pt; }
+  .chip svg { width: 10px; height: 10px; }
+  .sec-title { font-size: 9pt; margin-bottom: .22rem; }
+  section { margin-top: .42rem; }
+  .entry { grid-template-columns: 5.9rem 1fr; gap: .08rem .55rem; margin-bottom: .32rem; }
+  .entry .when { font-size: 7.1pt; }
+  .entry .detail, .lang-row .lvl { font-size: 7.2pt; }
+  .tags { gap: .18rem; }
+  .tag { border-radius: 4px; padding: .06rem .32rem; font-size: 6.8pt; }
+  .bullets { padding-left: .75rem; }
+  .bullets li { margin-bottom: .08rem; }
+  .award { grid-template-columns: 3.8rem 1fr; gap: .35rem; margin-bottom: .1rem; }
+  .award .yr { font-size: 6.9pt; }
+  .pub-group { margin-bottom: .24rem; }
+  .pub-group h3 { font-size: 6.9pt; margin: .08rem 0 .12rem; }
+  .pub { gap: .34rem; margin-bottom: .18rem; }
+  .pub .num { font-size: 7.3pt; min-width: .8rem; }
+  .pub .body { font-size: 7.35pt; }
+  .badge { font-size: 6pt; padding: 0 .2rem; margin-left: .12rem; }
+  .links { display: none; }
   .pub, .entry, .award { break-inside: avoid; }
   .iconlink { border-color: #bbb; color: var(--blue); }
   a { color: var(--blue-soft); text-decoration: none; }

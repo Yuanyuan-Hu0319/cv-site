@@ -75,12 +75,13 @@
   "publications": {
     "lead": [
       {
-        "authors": "Yuanyuan Hu, Jie Xiang, Yuening Jin, Qingchen Fan, Changshuo Wang, Yihan Wu, Dang Zheng, Bowen Hu, Tingyong Feng, Yuan Zhou & Zhiyi Chen",
-        "year": "2025",
-        "title": "Shared Neurogenetic Substrates of Non-planning Impulsivity and Procrastination",
-        "venue": "Proceedings of the National Academy of Sciences (PNAS)",
-        "info": "provisionally approved for publication; Tracking #: 2026-05127R",
-        "metrics": "",
+        "authors": "Yuanyuan Hu, Jie Xiang, Yuening Jin, Qingchen Fan, Changshuo Wang, Yihan Wu, Dang Zheng, Yancheng Tang, Wei Li, Bowen Hu, Tingyong Feng, Yuan Zhou & Zhiyi Chen",
+        "year": "2026",
+        "title": "Shared neurogenetic substrates of nonplanning impulsivity and procrastination",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "info": "123(28), e2605127123",
+        "metrics": "SCI · Q1 · 5-year IF 10.6",
+        "contribution": "Independent first author",
         "equalContrib": false,
         "links": {
           "doi": "",
@@ -93,8 +94,9 @@
         "year": "2026",
         "title": "Shared neurogenetic architecture links adolescent neurodevelopmental deviations to adult psychopathological procrastination",
         "venue": "Molecular Psychiatry",
-        "info": "in press",
-        "metrics": "SCI · Q1 · 5-year IF 11.8",
+        "info": "1–15",
+        "metrics": "SCI · Q1 · 5-year IF 12.2",
+        "contribution": "Co-first author, 3 first authors",
         "equalContrib": true,
         "links": {
           "doi": "10.1038/s41380-025-03423-0",
@@ -108,7 +110,8 @@
         "title": "Edge-centric connectome-genetic markers of bridging factor to comorbidity between depression and anxiety",
         "venue": "Nature Communications",
         "info": "15(1), 1–15",
-        "metrics": "SCI · Q1 · 5-year IF 16.1",
+        "metrics": "SCI · Q1 · 5-year IF 18.9",
+        "contribution": "Co-first author, 5 first authors",
         "equalContrib": true,
         "links": {
           "doi": "10.1038/s41467-024-55008-0",
@@ -122,7 +125,8 @@
         "title": "Computational modeling interpretation underlying elevated risk-taking propensity in the dynamic risky investment process of non-labor income",
         "venue": "Psychology Research and Behavior Management",
         "info": "2491–2504",
-        "metrics": "SSCI · Q1 · 5-year IF 3.5",
+        "metrics": "SSCI · Q1 · 5-year IF 4.5",
+        "contribution": "Co-first author, 2 first authors",
         "equalContrib": true,
         "links": {
           "doi": "10.2147/PRBM.S462466",
@@ -136,7 +140,8 @@
         "title": "The altered resting-state functional connectivity of thalamic subregions in patients with globus pharyngeus",
         "venue": "Brain Imaging and Behavior",
         "info": "1–9",
-        "metrics": "SCI · Q2 · 5-year IF 2.9",
+        "metrics": "SCI · Q2 · 5-year IF 3.1",
+        "contribution": "Co-first author, 2 first authors",
         "equalContrib": true,
         "links": {
           "doi": "10.1007/s11682-024-00940-4",
