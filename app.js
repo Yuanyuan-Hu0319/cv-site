@@ -14,6 +14,8 @@ const ICON = {
 const svg = (name) =>
   `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ICON[name]}</svg>`;
 
+const DATA_VERSION = '20260914-pub-details-2';
+
 const esc = (s) =>
   String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -33,7 +35,7 @@ function safeUrl(value) {
 
 function safeAssetPath(value) {
   return typeof value === 'string' &&
-    /^[A-Za-z0-9._/-]+$/.test(value) &&
+    /^[A-Za-z0-9._/?=&-]+$/.test(value) &&
     !value.includes('..') &&
     !value.startsWith('/')
     ? value
@@ -136,7 +138,7 @@ function render(cv) {
 
 document.getElementById('export').addEventListener('click', () => window.print());
 
-fetch('cv-data.json')
+fetch(`cv-data.json?v=${DATA_VERSION}`)
   .then((r) => r.json())
   .then(render)
   .catch((e) => {
