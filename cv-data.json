@@ -7,12 +7,12 @@
   "orcid": "https://orcid.org/0000-0001-9019-6198",
   "researchgate": "https://www.researchgate.net/profile/Yuanyuan-Hu-27",
   "highlightName": "Yuanyuan Hu",
-  "profile": "I study how genetic and environmental influences shape brain networks and self-regulatory behavior, with a focus on procrastination, impulsivity, decision-making, and transdiagnostic mental-health risk. My work combines twin designs, neuroimaging, computational modeling, representational similarity analysis, and connectome-genetic approaches.",
+  "profile": "I study how genetic and environmental influences shape individual differences in brain structure and networks, with a focus on anxiety, depression, self-regulation, and transdiagnostic mental-health risk. My work combines twin designs, structural and functional neuroimaging, behavioral genetics, normative modeling, and connectome-based analyses.",
   "positioningOptions": [
-    "Twin neuroimaging, behavioral genetics, and computational psychiatry of self-regulation and mental health.",
-    "Genetically informed neuroimaging of procrastination, impulsivity, and transdiagnostic psychopathology.",
-    "Computational and neurogenetic mechanisms linking decision-making, self-regulation, and mental health.",
-    "AI-augmented psychological measurement and computational psychiatry as an emerging secondary direction."
+    "Genetically informed structural and multimodal neuroimaging of affective psychopathology.",
+    "Twin neuroimaging of anxiety, depression, and self-regulation.",
+    "Behavioral genetics of individual differences in brain structure and mental health.",
+    "Connectome-based analysis as a complementary direction."
   ],
   "education": [
     {
@@ -41,14 +41,14 @@
     }
   ],
   "interests": [
-    "Neuroimaging of psychiatric disorders",
-    "Behavioral genetics and twin studies",
-    "Behavioral decision-making"
+    "Affective psychopathology: anxiety and depression",
+    "Behavioral genetics and twin neuroimaging",
+    "Individual differences in self-regulation"
   ],
   "skills": [
-    "Proficient in twin-based genetic modeling and heritability analysis.",
-    "Experienced in neuroimaging and network analysis methods.",
-    "Well trained in the theoretical frameworks and methodological approaches of clinical research on anxiety and depression."
+    "Twin-based ACE and multivariate genetic modeling.",
+    "Structural MRI, resting-state fMRI, connectome, and network analysis.",
+    "Normative modeling, representational similarity analysis, spatial-null inference, and reproducible workflows in Python, MATLAB, and R."
   ],
   "languages": [
     {
@@ -83,6 +83,7 @@
     "lead": [
       {
         "authors": "Yuanyuan Hu, Jie Xiang, Yuening Jin, Qingchen Fan, Changshuo Wang, Yihan Wu, Dang Zheng, Yancheng Tang, Wei Li, Bowen Hu, Tingyong Feng, Yuan Zhou & Zhiyi Chen",
+        "shortAuthors": "Yuanyuan Hu, Jie Xiang, Yuening Jin, et al.",
         "year": "2026",
         "title": "Shared neurogenetic substrates of nonplanning impulsivity and procrastination",
         "venue": "Proceedings of the National Academy of Sciences",
@@ -98,10 +99,11 @@
       },
       {
         "authors": "Yuanyuan Hu#, Yancheng Tang#, Wei Li#, Dang Zheng, Yuening Jin, Qingchen Fan, Jan K Buitelaar, Yuan Zhou & Zhiyi Chen",
+        "shortAuthors": "Yuanyuan Hu#, Yancheng Tang#, Wei Li#, et al.",
         "year": "2026",
         "title": "Shared neurogenetic architecture links adolescent neurodevelopmental deviations to adult psychopathological procrastination",
         "venue": "Molecular Psychiatry",
-        "info": "1–15",
+        "info": "31(5), 2739–2753",
         "metrics": "SCI · Q1 · 5-year IF 12.2",
         "contribution": "Co-first author, 3 first authors",
         "equalContrib": true,
@@ -113,10 +115,11 @@
       },
       {
         "authors": "Zhiyi Chen#, Yancheng Tang#, Xuerong Liu, Wei Li#, Yuanyuan Hu#, Bowen Hu#, Ting Xu, Rong Zhang, Lei Xia, Jing-Xuan Zhang, Zhibing Xiao, Ji Chen, Zhengzhi Feng, Yuan Zhou, Qinghua He, Jiang Qiu, Xu Lei, Hong Chen, Shaozheng Qin & Tingyong Feng",
+        "shortAuthors": "Zhiyi Chen#, Yancheng Tang#, Xuerong Liu, Wei Li#, Yuanyuan Hu#, et al.",
         "year": "2024",
         "title": "Edge-centric connectome-genetic markers of bridging factor to comorbidity between depression and anxiety",
         "venue": "Nature Communications",
-        "info": "15(1), 1–15",
+        "info": "15, 10560",
         "metrics": "SCI · Q1 · 5-year IF 18.9",
         "contribution": "Co-first author, 5 first authors",
         "equalContrib": true,
@@ -128,10 +131,11 @@
       },
       {
         "authors": "Yuanyuan Hu#, Yuening Jin#, Bowen Hu, Tingyong Feng & Yuan Zhou",
+        "shortAuthors": "Yuanyuan Hu#, Yuening Jin#, Bowen Hu, et al.",
         "year": "2024",
         "title": "Computational modeling interpretation underlying elevated risk-taking propensity in the dynamic risky investment process of non-labor income",
         "venue": "Psychology Research and Behavior Management",
-        "info": "2491–2504",
+        "info": "17, 2491–2504",
         "metrics": "SSCI · Q1 · 5-year IF 4.5",
         "contribution": "Co-first author, 2 first authors",
         "equalContrib": true,
@@ -143,10 +147,11 @@
       },
       {
         "authors": "Yuanyuan Hu#, Jingjie Zhao#, Yuening Jin, Yi Du, Qian Zhao, Shuai Xu, Li Li & Yuan Zhou",
+        "shortAuthors": "Yuanyuan Hu#, Jingjie Zhao#, Yuening Jin, et al.",
         "year": "2024",
         "title": "The altered resting-state functional connectivity of thalamic subregions in patients with globus pharyngeus",
         "venue": "Brain Imaging and Behavior",
-        "info": "1–9",
+        "info": "19(1), 23–31",
         "metrics": "SCI · Q2 · 5-year IF 3.1",
         "contribution": "Co-first author, 2 first authors",
         "equalContrib": true,
@@ -160,10 +165,10 @@
     "collaborative": [
       {
         "authors": "Yuening Jin, Dang Zheng, Ruolei Gu, Qingchen Fan, Martin Dietz, Changshuo Wang, Xinying Li, Jie Chen, Yuanyuan Hu & Yuan Zhou",
-        "year": "2024",
+        "year": "2025",
         "title": "Substantial heritability underlies fairness norm adaptation capability and its neural basis",
         "venue": "Advanced Science",
-        "info": "2411070",
+        "info": "12(9), e2411070",
         "metrics": "SCI · Q1 · 5-year IF 16.3",
         "equalContrib": false,
         "links": {
@@ -205,9 +210,9 @@
   "site": {
     "repo": "Yuanyuan-Hu0319/cv-site",
     "url": "https://yuanyuan-hu0319.github.io/cv-site/",
-    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260914-justify-1",
-    "docx": "Yuanyuan_Hu_CV.docx?v=20260914-justify-1",
-    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260914-justify-1",
-    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260914-justify-1"
+    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260923-opt-1",
+    "docx": "Yuanyuan_Hu_CV.docx?v=20260923-opt-1",
+    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260923-opt-1",
+    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260923-opt-1"
   }
 }

@@ -9,4 +9,4 @@
 
 Public files include the web CV, `cv-data.json`, `Yuanyuan_Hu_CV.pdf`, `Yuanyuan_Hu_CV.docx`, `Yuanyuan_Hu_CV_Extended.pdf`, `Yuanyuan_Hu_CV_Extended.docx`, and a QR code decoded to the live URL.
 
-The one-page PDF includes the footer text `Latest CV: yuanyuan-hu0319.github.io/cv-site/`. The expanded CV includes a research profile, research-positioning options, and DOI/article links.
+The one-page PDF includes the footer text `Latest CV: yuanyuan-hu0319.github.io/cv-site/`, a concise research profile, five selected lead-author publications, and direct article links. The expanded CV separates the academic profile from the complete publication record and includes clickable contact, website, ORCID, ResearchGate, and DOI/article links.
