@@ -165,6 +165,7 @@
     "collaborative": [
       {
         "authors": "Yuening Jin, Dang Zheng, Ruolei Gu, Qingchen Fan, Martin Dietz, Changshuo Wang, Xinying Li, Jie Chen, Yuanyuan Hu & Yuan Zhou",
+        "shortAuthors": "Yuening Jin, Dang Zheng, Ruolei Gu, ... Yuanyuan Hu & Yuan Zhou",
         "year": "2025",
         "title": "Substantial heritability underlies fairness norm adaptation capability and its neural basis",
         "venue": "Advanced Science",
@@ -179,6 +180,7 @@
       },
       {
         "authors": "Wei Li, Xue-rong Liu, Qianyu Zhang, Lei Xia, Yanyan Li, Xiaobing Tian, Jie Gong, Jidong Ren, Chang Shen, Yi Wu, Ji Chen, Chuan-Peng Hu, Jing-Xuan Zhang, Ting Xu, Yuanyuan Hu, Bowen Hu, Ni Yan, Tingyong Feng, Zhengzhi Feng & Zhiyi Chen",
+        "shortAuthors": "Wei Li, Xue-rong Liu, Qianyu Zhang, ... Yuanyuan Hu, et al.",
         "year": "2025",
         "title": "Implementation of primary psychological healthcare policy to address the risk of depression in underprivileged children and adolescents, in the entire lower-middle-economic-status city of China: an observational, multicenter, and single-arm cohort study",
         "venue": "Depression and Anxiety",
@@ -193,6 +195,7 @@
       },
       {
         "authors": "Bowen Hu, Tongxi Yang, Yuanyuan Hu, M. Liu, S. Tan, X. Li & Shaozheng Qin",
+        "shortAuthors": "Bowen Hu, Tongxi Yang, Yuanyuan Hu, et al.",
         "year": "2026",
         "title": "Neurobehavioral Profiles of Inhibitory-Control Stratify Vulnerability and Resilience under Childhood Poverty",
         "venue": "medRxiv",
@@ -210,9 +213,9 @@
   "site": {
     "repo": "Yuanyuan-Hu0319/cv-site",
     "url": "https://yuanyuan-hu0319.github.io/cv-site/",
-    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260923-opt-1",
-    "docx": "Yuanyuan_Hu_CV.docx?v=20260923-opt-1",
-    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260923-opt-1",
-    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260923-opt-1"
+    "pdf": "Yuanyuan_Hu_CV.pdf?v=20260923-opt-2",
+    "docx": "Yuanyuan_Hu_CV.docx?v=20260923-opt-2",
+    "extendedPdf": "Yuanyuan_Hu_CV_Extended.pdf?v=20260923-opt-2",
+    "extendedDocx": "Yuanyuan_Hu_CV_Extended.docx?v=20260923-opt-2"
   }
 }

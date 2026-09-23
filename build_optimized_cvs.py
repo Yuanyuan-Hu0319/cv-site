@@ -347,7 +347,7 @@ def build_one_page(data):
     add_run(methods, "Methods: ", bold=True, size=9.1, color=NAVY)
     add_run(methods, " ".join(data["skills"]), size=9.1)
 
-    section_title(doc, "Selected Awards and Honours", before=4)
+    section_title(doc, "Awards and Honours", before=4)
     for award in data["awards"]:
         paragraph = doc.add_paragraph()
         set_paragraph(paragraph, after=1, line=1.02, keep=True)
@@ -361,13 +361,22 @@ def build_one_page(data):
     add_run(language, "Languages: ", bold=True, size=8.6, color=NAVY)
     add_run(language, "English - Advanced (IELTS 7.0).", size=8.6)
 
-    section_title(doc, "Selected Publications", before=4)
+    section_title(doc, "Publications", before=4)
     for index, pub in enumerate(data["publications"]["lead"], 1):
+        add_publication(doc, pub, index, data.get("highlightName"), compact=True)
+
+    collaborative = doc.add_paragraph()
+    set_paragraph(collaborative, before=2, after=1, line=1.0,
+                  alignment=WD_ALIGN_PARAGRAPH.LEFT)
+    keep_with_next(collaborative)
+    add_run(collaborative, "Collaborative publications", bold=True,
+            size=8.8, color=NAVY, font=HEAD_FONT)
+    for index, pub in enumerate(data["publications"]["collaborative"], 1):
         add_publication(doc, pub, index, data.get("highlightName"), compact=True)
 
     note = doc.add_paragraph()
     set_paragraph(note, before=1, after=0, line=1.0, alignment=WD_ALIGN_PARAGRAPH.CENTER)
-    add_run(note, "# Equal contribution. Full author lists and collaborative publications: ",
+    add_run(note, "# Equal contribution. Full author lists: ",
             italic=True, size=7.3, color=MUTED)
     add_hyperlink(note, "Extended CV", data["site"]["url"] + data["site"]["extendedPdf"],
                   size=7.3, color=TEAL)
